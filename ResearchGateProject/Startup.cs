@@ -86,7 +86,7 @@ namespace ResearchGateProject
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Paper}/{action=Index}/{id?}");
             });
 
             //Seed database
